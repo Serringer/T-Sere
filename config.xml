@@ -1,7 +1,7 @@
 <?xml version ='1.0' encoding='UTF-8' ?>
 <widget xmlns="http://www.w3.org/ns/widgets"
         xmlns:gap="http://phonegap.com/ns/1.0"
-        id="dk.serringer.URere"
+        id="dk.serringer.TSere"
         version="1.0.0">
     <name>TSere</name>
     <description>it's here</description>
@@ -24,12 +24,12 @@
         </activity>
 
     -->
-    <preference name="permissions" value="none"/>
+    <!--<preference name="permissions" value="none"/>-->
     <!--
      Customize your app and platform with the preference element.
     -->
     <platform name="android">
-        <allow-intent href="market:*" />
+        <allow-intent href="market:*"/>
     </platform>
 
     <!--  all: current version of PhoneGap  -->
@@ -65,7 +65,7 @@
     <!--
      ios: if set to true, app will terminate when home button is pressed
     -->
-    <preference name="show-splash-screen-spinner" value="false"/>
+    <preference name="show-splash-screen-spinner" value="true"/>
     <!--
      ios: if set to false, the spinner won't appear on the splash screen during app loading
     -->
@@ -87,24 +87,24 @@
     -->
     <!--  Plugins  -->
     <!--  Core plugins  -->
-    <gap:plugin name="org.apache.cordova.battery-status"/>
-    <gap:plugin name="org.apache.cordova.camera"/>
-    <gap:plugin name="org.apache.cordova.media-capture"/>
+    <!--<gap:plugin name="org.apache.cordova.battery-status"/>-->
+    <!--<gap:plugin name="org.apache.cordova.camera"/>-->
+    <!--<gap:plugin name="org.apache.cordova.media-capture"/>-->
     <gap:plugin name="org.apache.cordova.console"/>
-    <gap:plugin name="org.apache.cordova.contacts"/>
+    <!--<gap:plugin name="org.apache.cordova.contacts"/>-->
     <gap:plugin name="org.apache.cordova.device"/>
     <gap:plugin name="org.apache.cordova.device-motion"/>
     <gap:plugin name="org.apache.cordova.device-orientation"/>
-    <gap:plugin name="org.apache.cordova.dialogs"/>
-    <gap:plugin name="org.apache.cordova.file"/>
-    <gap:plugin name="org.apache.cordova.file-transfer"/>
+    <!--<gap:plugin name="org.apache.cordova.dialogs"/>-->
+    <!--<gap:plugin name="org.apache.cordova.file"/>-->
+    <!--<gap:plugin name="org.apache.cordova.file-transfer"/>-->
     <gap:plugin name="org.apache.cordova.geolocation"/>
-    <gap:plugin name="org.apache.cordova.globalization"/>
-    <gap:plugin name="org.apache.cordova.inappbrowser"/>
-    <gap:plugin name="org.apache.cordova.media"/>
-    <gap:plugin name="org.apache.cordova.network-information"/>
-    <gap:plugin name="org.apache.cordova.splashscreen"/>
-    <gap:plugin name="org.apache.cordova.vibration"/>
+    <!--<gap:plugin name="org.apache.cordova.globalization"/>-->
+    <!--<gap:plugin name="org.apache.cordova.inappbrowser"/>-->
+    <!--<gap:plugin name="org.apache.cordova.media"/>-->
+    <!--<gap:plugin name="org.apache.cordova.network-information"/>-->
+    <!--<gap:plugin name="org.apache.cordova.splashscreen"/>-->
+    <!--<gap:plugin name="org.apache.cordova.vibration"/>-->
     <!--  disable sleep -->
     <gap:plugin name="nl.x-services.plugins.insomnia"/>
     <!--  Third party plugins  -->
@@ -117,13 +117,13 @@
 
     -->
     <!--  Define app icon for each platform. -->
-    <icon src="res/drawable-mdpi/background.9.png"          />
-    <icon src="res/drawable-mdpi/background.9.png"          gap:platform="android" gap:qualifier="ldpi"/>
-    <icon src="res/drawable-mdpi/background.9.png"        gap:platform="android" gap:qualifier="mdpi"/>
-    <icon src="res/drawable-hdpi/background.9.png"        gap:platform="android" gap:qualifier="hdpi"/>
-    <icon src="res/drawable-xhdpi/background.9.png"       gap:platform="android" gap:qualifier="xhdpi"/>
-    <icon src="res/drawable-xxhdpi/background.9.png"      gap:platform="android" gap:qualifier="xxhdpi"/>
-    <icon src="res/drawable-xxxhdpi/background.9.png"         gap:platform="android" gap:qualifier="xxxhdpi"/>
+    <icon src="res/drawable-mdpi/background.9.png"/>
+    <icon src="res/drawable-mdpi/background.9.png" gap:platform="android" gap:qualifier="ldpi"/>
+    <icon src="res/drawable-mdpi/background.9.png" gap:platform="android" gap:qualifier="mdpi"/>
+    <icon src="res/drawable-hdpi/background.9.png" gap:platform="android" gap:qualifier="hdpi"/>
+    <icon src="res/drawable-xhdpi/background.9.png" gap:platform="android" gap:qualifier="xhdpi"/>
+    <icon src="res/drawable-xxhdpi/background.9.png" gap:platform="android" gap:qualifier="xxhdpi"/>
+    <icon src="res/drawable-xxxhdpi/background.9.png" gap:platform="android" gap:qualifier="xxxhdpi"/>
     <!--
 
         <icon src="res/icon/blackberry/icon-80.png"     gap:platform="blackberry" />
@@ -137,12 +137,12 @@
         <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
     -->
     <!--  Define app splash screen for each platform. -->
-    <gap:splash src="res/drawable-mdpi/background.9.png"    gap:platform="android" gap:qualifier="port-ldpi"/>
-    <gap:splash src="res/drawable-mdpi/background.9.png"    gap:platform="android" gap:qualifier="port-mdpi"/>
-    <gap:splash src="res/drawable-hdpi/background.9.png"    gap:platform="android" gap:qualifier="port-hdpi"/>
-    <gap:splash src="res/drawable-xhdpi/background.9.png"    gap:platform="android" gap:qualifier="port-xhdpi"/>
-    <gap:splash src="res/drawable-xxhdpi/background.9.png"   gap:platform="android" gap:qualifier="port-xxhdpi"/>
-    <gap:splash src="res/drawable-xxxhdpi/background.9.png"  gap:platform="android" gap:qualifier="port-xxxhdpi"/>
+    <gap:splash src="res/drawable-mdpi/background.9.png" gap:platform="android" gap:qualifier="port-ldpi"/>
+    <gap:splash src="res/drawable-mdpi/background.9.png" gap:platform="android" gap:qualifier="port-mdpi"/>
+    <gap:splash src="res/drawable-hdpi/background.9.png" gap:platform="android" gap:qualifier="port-hdpi"/>
+    <gap:splash src="res/drawable-xhdpi/background.9.png" gap:platform="android" gap:qualifier="port-xhdpi"/>
+    <gap:splash src="res/drawable-xxhdpi/background.9.png" gap:platform="android" gap:qualifier="port-xxhdpi"/>
+    <gap:splash src="res/drawable-xxxhdpi/background.9.png" gap:platform="android" gap:qualifier="port-xxxhdpi"/>
     <gap:splash src="res/drawable-mdpi/background.9.png"/>
     <!--
 
