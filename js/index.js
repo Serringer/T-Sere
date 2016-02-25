@@ -9,5 +9,5 @@ $(document).on('pageshow', '#index', function (e, data) {
             center: new google.maps.LatLng(38.50, -90.50),
             mapTypeId: google.maps.MapTypeId.ROADMAP
         });
-    }, 1);
+    }, 100);
 });
