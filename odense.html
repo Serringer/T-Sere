@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regin's kort super simpel</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="cordova.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="odense">
+    <div data-role="header">
+        <h1>Data fra odense</h1>
+    </div>
+    <div data-role="content" id="odense">
+        <label for="dataset">Vælg datasæt</label>
+        <select name="dataset" id="dataset"></select>
+    </div>
+    <div data-role="footer" data-position="fixed" data-id="nav">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="index.html" data-transition="flow">Du er her</a></li>
+                <li><a class="ui-btn-active" href="odense.html" data-transition="slide">Odense data</a></li>
+                <li><a href="api.html" data-transition="flip">Vejret</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
